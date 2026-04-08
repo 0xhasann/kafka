@@ -1,11 +1,7 @@
 package com.example.demo;
 
 import org.springframework.stereotype.Service;
-
 import lombok.extern.slf4j.Slf4j;
-
-import java.util.logging.Logger;
-
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.kafka.support.KafkaHeaders;
